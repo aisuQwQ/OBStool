@@ -1,0 +1,43 @@
+@font-face {
+    font-family: mihoyo;
+    src: url(./assets/ja-jp.ttf);
+}
+body {
+    margin: 0;
+}
+
+#container {
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    grid-template-rows: 92.5% 7.5%;
+    grid-template-columns: 7.5% 92.5%;
+
+    background-image: url(./assets/BGI2.png);
+    background-size: contain;
+}
+
+#clock {
+    font-family: mihoyo;
+    grid-row: 2;
+    grid-column: 2;
+    font-size: 75px;
+    color: azure;
+    align-self: center;
+    margin-left: auto;
+}
+
+#huohuo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(./assets/huohuo1.png);
+    background-size: contain;
+}
+#yunli {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(./assets/yunli4.png);
+    background-size: contain;
+}
