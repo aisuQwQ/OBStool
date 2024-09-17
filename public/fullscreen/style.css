@@ -1,0 +1,30 @@
+@font-face {
+    font-family: mihoyo;
+    src: url(./assets/ja-jp.ttf);
+}
+body {
+    margin: 0;
+}
+
+#container {
+    width: 1920px;
+    height: 1080px;
+    display: block;
+
+    background-color: black;
+}
+
+#huohuo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(/assets/huohuoline.png);
+    background-size: contain;
+}
+#yunli {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(./assets/yunli4.png);
+    background-size: contain;
+}
